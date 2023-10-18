@@ -138,7 +138,7 @@ env-todo/
 venv-todo/
 ENV-todo/
 env-todo.bak/
-venv-todo.bak/
+venv.bak/
 
 # Spyder project settings
 .spyderproject
