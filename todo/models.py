@@ -1,7 +1,9 @@
 from django.db import models
 
+
 class Task(models.Model):
     """To handle the datas of the tasks"""
+
     task = models.CharField(max_length=250)
     is_completed = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
